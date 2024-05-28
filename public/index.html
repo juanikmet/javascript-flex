@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coder Sale</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Coder Sale</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#" id="cartBtn">Carrito</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="productContainer">
+    <!-- Aquí se cargarán los productos con JavaScript -->
+  </main>
+
+  <div id="cartModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="cartSummary">
+        <h2>Carrito de Compras</h2>
+        <ul id="cartItems">
+          <!-- Aquí se mostrarán los productos agregados al carrito -->
+        </ul>
+        <p id="cartTotal">Total: $0.00</p>
+      </div>
+      <button id="emptyCartBtn">Vaciar Carrito</button>
+      <button id="checkoutBtn">Pagar</button> <!-- Botón de Pagar agregado -->
+    </div>
+  </div>
+
+  <div id="paymentModal" class="modal">
+    <div class="modal-content">
+      <span class="close-payment">&times;</span>
+      <div id="paymentSummary">
+        <h2>Resumen de Pago</h2>
+        <!-- Aquí se mostrará el resumen de pago -->
+      </div>
+      <form id="paymentForm">
+        <label for="customerName">Nombre:</label>
+        <input type="text" id="customerName" name="customerName">
+        <label for="customerEmail">Email:</label>
+        <input type="email" id="customerEmail" name="customerEmail">
+        <button type="submit" id="confirmPaymentBtn">Comprar</button>
+        <p id="paymentSuccessMessage"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

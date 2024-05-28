@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "Cerveza",
+        "imagen": "../img/cerveza.webp",
+        "precio": 1500.0,
+        "stock": 5
+    },
+    {
+        "nombre": "Whisky",
+        "imagen": "../img/whisky.webp",
+        "precio": 30000.0,
+        "stock": 7
+    },
+    {
+        "nombre": "Vodka",
+        "imagen": "../img/vodka.webp",
+        "precio": 9000.0,
+        "stock": 3
+    },
+    {
+        "nombre": "Fernet",
+        "imagen": "../img/fernet.webp",
+        "precio": 4500.0,
+        "stock": 10
+    },
+    {
+        "nombre": "Vino",
+        "imagen": "../img/vino.webp",
+        "precio": 3200.0,
+        "stock": 2
+    },
+    {
+        "nombre": "Gin",
+        "imagen": "../img/gin.webp",
+        "precio": 8300.0,
+        "stock": 4
+    }
+]
